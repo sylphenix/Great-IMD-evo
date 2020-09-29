@@ -1,5 +1,5 @@
 # Great-IMD-evo theme GTK 2 part
-# version 0.9
+# version 1.0.2
 #
 # by Si Yilin
 
@@ -7,14 +7,13 @@
 #================== Color definitions ====================#
 
 gtk-color-scheme = "white_color:#ffffff
-lighter_color:#ededed
+lighter_color:#e2e2e2
 lighterB_color:#cdcdcd
 base_color:#bababa
 darkerB_color:#a5a5a5
 grooveB_color: #6a6a6a
-darkerC_color:#757575
 black_color:#000000
-entry_red_color: #d1b3b3
+entry_red_color: #d2bebe
 cyanA_color:#5c7cac
 select_color:#5c7cac
 "
@@ -116,7 +115,7 @@ style "button"
          function        = CHECK
          state           = INSENSITIVE
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/checkbox4.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_check_disable.png"
          overlay_stretch = FALSE
       }
 
@@ -125,7 +124,7 @@ style "button"
          function        = CHECK
          state           = INSENSITIVE
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/checkbox3.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_non_disable.png"
          overlay_stretch = FALSE
       }
 
@@ -134,7 +133,7 @@ style "button"
          function        = CHECK
          state           = NORMAL
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/checkbox2.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_check.png"
          overlay_stretch = FALSE
       }
 
@@ -143,7 +142,7 @@ style "button"
          function        = CHECK
          state           = NORMAL
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/checkbox.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_non.png"
          overlay_stretch = FALSE
       }
 
@@ -152,7 +151,7 @@ style "button"
          function        = CHECK
          state           = ACTIVE
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/checkbox2.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_check.png"
          overlay_stretch = FALSE
       }
 
@@ -161,7 +160,7 @@ style "button"
          function        = CHECK
          state           = ACTIVE
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/checkbox.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_non.png"
          overlay_stretch = FALSE
       }
 
@@ -170,7 +169,7 @@ style "button"
          function        = CHECK
          state           = PRELIGHT
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/checkbox6.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_check_hover.png"
          overlay_stretch = FALSE
       }
 
@@ -179,7 +178,7 @@ style "button"
          function        = CHECK
          state           = PRELIGHT
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/checkbox5.png"
+         overlay_file        = "../gtk-2.0/assets/checkbox_non_hover.png"
          overlay_stretch = FALSE
       }
 
@@ -190,7 +189,7 @@ style "button"
          function        = OPTION
          state           = INSENSITIVE
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/option3.png"
+         overlay_file        = "../gtk-2.0/assets/option_non_disable.png"
          overlay_stretch = FALSE
       }
 
@@ -199,7 +198,7 @@ style "button"
          function        = OPTION
          state           = INSENSITIVE
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/option4.png"
+         overlay_file        = "../gtk-2.0/assets/option_check_disable.png"
          overlay_stretch = FALSE
       }
 
@@ -208,7 +207,7 @@ style "button"
          function        = OPTION
          state           = NORMAL
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/option2.png"
+         overlay_file        = "../gtk-2.0/assets/option_check.png"
          overlay_stretch = FALSE
       }
 
@@ -217,7 +216,7 @@ style "button"
          function        = OPTION
          state           = NORMAL
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/option.png"
+         overlay_file        = "../gtk-2.0/assets/option_non.png"
          overlay_stretch = FALSE
       }
 
@@ -226,7 +225,7 @@ style "button"
          function        = OPTION
          state           = ACTIVE
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/option2.png"
+         overlay_file        = "../gtk-2.0/assets/option_check.png"
          overlay_stretch = FALSE
       }
 
@@ -235,7 +234,7 @@ style "button"
          function        = OPTION
          state           = ACTIVE
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/option.png"
+         overlay_file        = "../gtk-2.0/assets/option_non.png"
          overlay_stretch = FALSE
       }
 
@@ -244,7 +243,7 @@ style "button"
          function        = OPTION
          state           = PRELIGHT
          shadow          = IN
-         overlay_file        = "../gtk-2.0/assets/option6.png"
+         overlay_file        = "../gtk-2.0/assets/option_check_hover.png"
          overlay_stretch = FALSE
       }
 
@@ -253,7 +252,7 @@ style "button"
          function        = OPTION
          state           = PRELIGHT
          shadow          = OUT
-         overlay_file        = "../gtk-2.0/assets/option5.png"
+         overlay_file        = "../gtk-2.0/assets/option_non_hover.png"
          overlay_stretch = FALSE
       }
 
