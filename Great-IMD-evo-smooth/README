@@ -1,0 +1,29 @@
+== Great Indigo Magic Desktop evolution ==
+
+Great-IMD-evo is an sgi variation GTK2/3 theme. I love the classic IRIX style. But the strong embossed widgets now look a bit out of date. I developed this theme and tried to make it look more smooth and elegant, but to keep the essence of the original sgi grey scheme.
+
+It is light and minimal. There are no transitions or effects, and also no need for any extra theme engine. Just keep everything clear and efficient.
+
+It has been tested on Debian 10 (buster) with xfce4, openbox, fvwm, gnome, and a good amount of GTK2 and GTK3 applications. 
+
+The pro version: With this version, colors are dimmed down. It's better for professional use.
+
+
+==Version==
+
+Current version is 1.1.0, released in Jan 2022.
+
+
+==Installation==
+
+To install the theme, unzip the archive and copy the theme in your theme directory. 
+
+
+==Author==
+
+The author is Si Yilin.
+
+
+==Licence==
+
+This is a [GPL 3 https://www.gnu.org/licenses/gpl.txt] free software. Feel free to change and share the code.
