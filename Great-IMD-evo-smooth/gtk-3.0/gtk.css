@@ -1,7 +1,7 @@
 /**********************************************/
-/* Great-IMD-evo-smooth theme GTK 3 part        */
+/* Great-IMD-evo-smooth theme GTK3 part         */
 /* Version 1.2.0				*/
-/* by Si Yilin  - Feb 2022        		*/
+/* by Shi Yanling  - Feb 2022  	 	        */
 /**********************************************/
 
 /**********************************************/
@@ -730,9 +730,6 @@ flowbox flowboxchild:selected {
 	background-color: @select_color;
 	color: @white_color;
 }
-/*flowbox flowboxchild:hover {
-	background-color: @lighterT_color;
-}*/
 
 /**********************************************/
 /* frame, notebook, tab */
