@@ -1,7 +1,7 @@
 /**********************************************/
-/* Great-IMD-evo-smooth theme GTK 3 part         */
-/* Version 1.2.0						*/
-/* by Si Yilin  - Feb 2022         */
+/* Great-IMD-evo-smooth theme GTK 3 part        */
+/* Version 1.2.0				*/
+/* by Si Yilin  - Feb 2022        		*/
 /**********************************************/
 
 /**********************************************/
@@ -86,7 +86,7 @@ headerbar {
 }
 headerbar:backdrop,
 .titlebar:not(headerbar):backdrop {
-    background-color: @backdrop_header_color; 
+    background-color: @backdrop_header_color;
 }
 
 decoration {
@@ -239,8 +239,8 @@ button:visited > label {
 }
 
 /************ linked button ****************/
-spinbutton:not(.vertical) button, 
-spinbutton:not(.vertical) entry, 
+spinbutton:not(.vertical) button,
+spinbutton:not(.vertical) entry,
 .linked:not(.vertical) > spinbutton:not(.vertical),
 .linked:not(.vertical) > entry,
 .linked > button,
@@ -700,7 +700,7 @@ selection, textview selection {
 tooltip.background {
 	padding: 1px;
 	background-color: @tooltip_color;
-    border: 1px solid @shadow_color;	
+    border: 1px solid @shadow_color;
 }
 
 messagedialog .titlebar {
@@ -866,14 +866,14 @@ list row:hover {
 
 separator.vertical {
 	padding: 0px;
-	margin: 2px;    	
+	margin: 2px;
 	min-width: 1px;
 	background-color: @darkerB_color;
 }
 
 separator.horizontal {
 	padding: 0px;
-	margin: 2px;    	
+	margin: 2px;
 	min-height: 1px;
 	background-color: @darkerB_color;
 }
@@ -889,7 +889,7 @@ toolbar separator {
 
 menu separator {
 	padding: 0px;
-	margin: 2px;    	
+	margin: 2px;
 	min-height: 1px;
 	background-color: @darkerB_color;
 }
@@ -1100,7 +1100,7 @@ switch:disabled slider {
 /* arrow */
 /**********************************************/
 
-combobox arrow {  
+combobox arrow {
 	-gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 	min-height: 20px;
 	min-width: 20px;
