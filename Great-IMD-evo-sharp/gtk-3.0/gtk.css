@@ -1162,6 +1162,9 @@ filechooser #pathbarbox {
 	font-stretch: semi-condensed;
 	border-color: @darkerB_color;
 }
+.thunar toolbar .path-bar-button:disabled {
+	box-shadow: none;
+}
 /*.thunar .standard-view.frame {
 	border-right: none;
 }*/
