@@ -1,7 +1,7 @@
 /************************************************/
 /* Great-IMD-evo-smooth theme GTK3 part		*/
-/* Version 1.2.6				*/
-/* by Shi Yanling  -  Apr. 2022			*/
+/* Version 1.2.7				*/
+/* by Shi Yanling  -  2022.11			*/
 /************************************************/
 
 /**********************************************/
@@ -81,9 +81,11 @@ headerbar:backdrop,
 
 decoration {
 	/*margin: 6px;
-	box-shadow: 0 3px 3px 1px @shadowLit_color, 0 0 0 1px @shadowLit_color;*/
+	box-shadow: 0 3px 3px 1px @shadowLit_color, 0 0 0 1px @shadowLit_color;
+	border: 1px solid @shadowLit_color;*/
 	margin: 0px;
-	border: 1px solid @shadowLit_color;
+	box-shadow: 0px 0px 0px 1px @shadowLit_color;
+	border: none;
 }
 .popup decoration,
 tooltip decoration,
@@ -1220,10 +1222,6 @@ filechooser #pathbarbox {
 	border: 1px solid @darkerB_color;
 }
 .nautilus-window .frame {
-	border: none;
-}
-.nautilus-window decoration {
-	box-shadow: 0px 0px 0px 1px @shadowLit_color;
 	border: none;
 }
 
