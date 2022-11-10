@@ -27,7 +27,7 @@
 @define-color link_color #556aed;
 @define-color tooltip_color #575642;
 @define-color active_header_color @base_color;
-@define-color backdrop_header_color @darkerB_color;
+@define-color backdrop_header_color @darker_color;
 @define-color rubberband_border_color shade(@selected_color, 0.8);
 @define-color rubberband_bg_color rgba(80, 120, 240, 0.05);
 
@@ -103,25 +103,29 @@ menu decoration  {
 	font-weight: bold;
 }
 .titlebar .title:backdrop {
-	color: @lighterB_color;
+	color: shade(@lighterB_color, 0.8);
 }
 
+headerbar separator,
+.titlebar:not(headerbar) separator {
+	background-image: linear-gradient(to right, @active_header_color 1px, @active_header_color 1px);
+}
 headerbar separator:backdrop,
 .titlebar:not(headerbar) separator:backdrop {
-	background-image: linear-gradient(to right, @groove_color 1px, transparent 1px);
+	background-image: linear-gradient(to right, @backdrop_header_color 1px, @backdrop_header_color 1px);
 }
 
 headerbar button,
 headerbar button:selected {
 	color: @lighterB_color;
-	background-color: @grayB_color;
+	background-color: @grayC_color;
 	border: 1px solid @shadow_color;
 	box-shadow: none;
 }
 headerbar button:hover,
 headerbar button.flat:hover {
 	color: @lighterA_color;
-	background-color: shade(@grayB_color, 1.1);
+	background-color: shade(@grayC_color, 1.08);
 	box-shadow: none;
 }
 headerbar button:active,
@@ -131,11 +135,16 @@ headerbar button:checked:hover {
 	background-color: @lighterB_color;
 	box-shadow: none;
 }
-headerbar button:hover:backdrop {
-	background-color: shade(@darkerB_color, 1.1);
+headerbar button:backdrop {
+	color: shade(@lighterB_color, 0.8);
+	background-color: @backdrop_header_color;
 }
+/*headerbar button:hover:backdrop {
+	background-color: shade(@grayB_color, 1.1);
+}*/
 headerbar button:checked:backdrop {
-	background-color: @base_color;
+	color: @shadow_color;
+	background-color: shade(@lighterB_color, 0.6);
 }
 
 /**********************************************/
