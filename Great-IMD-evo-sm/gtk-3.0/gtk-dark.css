@@ -943,40 +943,40 @@ check {
 	padding: 0px;
 	min-width: 16px;
 	min-height: 16px;
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_non.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_non.png");
 	border: none;
 }
 
 check:hover {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_non_hover.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_non_hover.png");
 }
 
 check:checked {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_check.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_check.png");
 }
 
 check:checked:hover {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_check_hover.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_check_hover.png");
 }
 
 check:disabled {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_non_disable.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_non_disable.png");
 }
 
 check:disabled:checked {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_check_disable.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_check_disable.png");
 }
 
 check:indeterminate {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_ind.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_ind.png");
 }
 
 check:indeterminate:hover {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_ind_hover.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_ind_hover.png");
 }
 
 check:indeterminate:disabled {
-	-gtk-icon-source: url("../gtk-3.0/assets/checkbox_ind_disable.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/checkbox_ind_disable.png");
 }
 
 radio {
@@ -984,40 +984,40 @@ radio {
 	padding: 0px;
 	min-width: 16px;
 	min-height: 16px;
-	-gtk-icon-source: url("../gtk-3.0/assets/option_non.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_non.png");
 	border: none;
 }
 
 radio:hover {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_non_hover.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_non_hover.png");
 }
 
 radio:checked {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_check.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_check.png");
 }
 
 radio:checked:hover {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_check_hover.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_check_hover.png");
 }
 
 radio:disabled {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_non_disable.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_non_disable.png");
 }
 
 radio:disabled:checked {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_check_disable.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_check_disable.png");
 }
 
 radio:indeterminate {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_ind.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_ind.png");
 }
 
 radio:indeterminate:hover {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_ind_hover.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_ind_hover.png");
 }
 
 radio:indeterminate:disabled {
-	-gtk-icon-source: url("../gtk-3.0/assets/option_ind_disable.png");
+	-gtk-icon-source: url("../gtk-3.0/assets-dark/option_ind_disable.png");
 }
 
 /* handbrake/defaults audio; tweaktools/bureau */
